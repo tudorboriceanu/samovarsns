@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+
+<html lang="ro">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="author" content="Boriceanu Tudor-Cristian">
+  <meta name="keywords" content="bar, Rusia, cocktail">
+  <meta name="description"
+    content="Descoperă autenticitatea băuturilor rusești la Samovar Sip&Social, barul din Cluj unde vodca clasică și cocktailurile inovatoare îmbină tradiția cu inovația.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+  <title>
+    Samovar Sip&Social
+  </title>
+
+  <style>
+    body {
+      font-family: 'Raleway', sans-serif;
+      background-color: #0f112a;
+      color: white;
+    }
+
+    h1 {
+      font-weight: 800;
+    }
+
+    h2 {
+      font-weight: 800;
+    }
+
+    h3 {
+      font-weight: 700;
+    }
+
+    .navbar {
+      background-color: #0f112a;
+    }
+
+    .navbar .navbar-brand {
+      padding: 0;
+      margin-right: 40 px;
+    }
+
+    .navbar .navbar-brand img {
+      height: 60px;
+    }
+
+    .navbar .nav-link {
+      color: white;
+    }
+
+    .navbar .nav-link:hover {
+      color: grey;
+    }
+
+    .navbar .navbar-toggler {
+      border-color: white;
+    }
+
+    .carousel-item .ratio img {
+      object-fit: cover;
+    }
+
+    .carousel-caption {
+      background-color: rgba(15, 17, 42, 0.9);
+    }
+
+    .card {
+      background-color: rgba(0, 0, 0, 0.2);
+    }
+
+    .container {
+      padding: 30px;
+    }
+
+    .despre-noi img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 15px;
+    }
+
+    .despre-noi p {
+      margin-top: 15px;
+    }
+
+    .despre-noi .rounded-corner {
+      border-radius: 15px;
+      overflow: hidden;
+      margin-bottom: 30px;
+    }
+
+    .despre-noi .align-vertical-center {
+      display: flex;
+      align-items: center;
+    }
+
+    .border-white {
+      border: 2px solid white;
+    }
+
+    .footer {
+      background-image: url(multa-bautura.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: bottom;
+      background-blend-mode: multiply;
+      background-color: rgb(15, 17, 42);
+      border-top: 2px solid white;
+    }
+
+
+    .copyright {
+      color: grey;
+    }
+
+    .social a {
+      margin-right: 10px;
+    }
+
+    .separator {
+      width: 10%;
+      margin: auto;
+    }
+  </style>
+
+
+</head>
+
+<body>
+
+  <header>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top navbar-dark border-bottom border-2">
+      <div class="container-fluid">
+
+        <a class="navbar-brand" href="index.html">
+          <img src="logo.png" alt="logo Samovar">
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#sectiuni"
+          aria-controls="sectiuni" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="sectiuni">
+          <div class="navbar-nav">
+            <a class="nav-link" href="#specialitati">Specialități</a>
+            <a class="nav-link" href="#recenzii">Recenzii</a>
+            <a class="nav-link" href="#despre-noi">Despre noi</a>
+          </div>
+        </div>
+
+      </div>
+    </nav>
+
+    <div id="carusel" class="carousel slide border-bottom border-2">
+
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carusel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      </div>
+
+      <div class="carousel-inner">
+
+        <div class="carousel-item active">
+          <div class="ratio ratio-21x9">
+            <img src="carusel/shots-2.jpg" class="d-block w-100" alt="două shoturi">
+          </div>
+          <div class="carousel-caption d-none d-md-block rounded">
+            <h1>Samovar Sip and Social</h1>
+            <p>Samovar aduce o autenticitate remarcabilă în fiecare detaliu, de la băuturile rusești tradiționale
+              până la atmosfera ce amintește de căldura casei din Rusia.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="ratio ratio-21x9">
+            <img src="carusel/color-shots.jpg" class="d-block w-100" alt="trei shoturi colorate luminate">
+          </div>
+          <div class="carousel-caption d-none d-md-block rounded">
+            <h1>Samovar Sip and Social</h1>
+            <p>Cu cocktailurile sale inovatoare și reinterpretările moderne, Samovar redefinește experiența de băut la
+              bar, aducând o notă contemporană în tradiția rusească.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="ratio ratio-21x9">
+            <img src="carusel/cocktails.jpg" class="d-block w-100" alt="trei cocktailuri în curs de pregătire">
+          </div>
+          <div class="carousel-caption d-none d-md-block rounded">
+            <h1>Samovar Sip and Social</h1>
+            <p>În fiecare băutură și în fiecare detaliu al decorului, se simte rafinamentul, făcând din Samovar
+              destinația perfectă pentru cei ce caută eleganță în fiecare înghițitură.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="ratio ratio-21x9">
+            <img src="carusel/shots.jpg" class="d-block w-100" alt="oameni cu shoturi în mână">
+          </div>
+          <div class="carousel-caption d-none d-md-block rounded">
+            <h1>Samovar Sip and Social</h1>
+            <p>Cu un personal primitoare și un serviciu impecabil, Samovar nu este doar un bar, ci și un loc unde
+              oaspeții se simt întâmpinați cu căldură și atenție.</p>
+          </div>
+        </div>
+
+        <div class="carousel-item">
+          <div class="ratio ratio-21x9">
+            <img src="carusel/people.jpg" class="d-block w-100" alt="oameni ciocnesc halbe de bere">
+          </div>
+          <div class="carousel-caption d-none d-md-block rounded">
+            <h1>Samovar Sip and Social</h1>
+            <p>Samovar este o fereastră deschisă către cultura rusă, oferind oamenilor nu doar băuturi, ci și o
+              incursiune autentică în tradițiile și povestile din spatele fiecărei rețete.</p>
+          </div>
+        </div>
+
+
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carusel" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carusel" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      </button>
+    </div>
+
+  </header>
+
+  <div class="container">
+
+
+    <div class="row">
+      <div class="col-12">
+        <h2 id="specialitati">Specialități</h2>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12">
+        <p>
+          Băuturile de la Samovar sunt o călătorie în lumea autentică a băuturilor rusești, unde vodca
+          clasică și cocktailurile inovatoare se împletesc armonios, oferind o experiență inconfundabilă ce îmbină
+          tradiția cu creativitatea.
+        </p>
+      </div>
+    </div>
+
+
+    <div class="row">
+      <div class="col-md-4">
+        <div class="card text-light border-light mb-3">
+          <div class="card-header border-light">
+            <p class="mb-0">Doar la Samovar </p>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Cocktail-uri</h3>
+            <p class="card-subtitle mb-0 text-body-secondary">De la 20 lei</p>
+            <span class="badge text-bg-danger mb-2">Cel mai bun preț</span>
+            <p class="card-text">Cocktailurile de la Samovar sunt opere de artă mixologică, aducând o explozie de arome
+              și inovație în fiecare pahar.</p>
+          </div>
+          <img src="specialitati/cocktail.jpg" class="card-img-bottom" alt="cocktail cu lămâie">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-light border-light mb-3">
+          <div class="card-header border-light">
+            <p class="mb-0">Doar la Samovar </p>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Cafea</h3>
+            <p class="card-subtitle mb-0 text-body-secondary">De la 6 lei</p>
+            <span class="badge text-bg-danger mb-2">Cel mai bun preț</span>
+            <p class="card-text">Cafeaua noastră este o călătorie olfactivă și gustativă, oferind o selecție rafinată de
+              espresso și băuturi cu lapte.</p>
+          </div>
+          <img src="specialitati/coffee.jpg" class="card-img-bottom" alt="cafea curge din esspresor">
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card text-light border-light mb-3">
+          <div class="card-header border-light">
+            <p class="mb-0">Doar la Samovar </p>
+          </div>
+          <div class="card-body">
+            <h3 class="card-title">Shoturi</h3>
+            <p class="card-subtitle mb-0 text-body-secondary">De la 8 lei</p>
+            <span class="badge text-bg-danger mb-2">Cel mai bun preț</span>
+            <p class="card-text">Shoturile de la Samovar sunt mici explozii de intensitate și savoare, capturând esența
+              autentică a tradiției rusești.</p>
+          </div>
+          <img src="specialitati/shots.jpg" class="card-img-bottom" alt="3 shoturi colorate">
+        </div>
+      </div>
+    </div>
+
+    <hr class="border border-light opacity-100 mt-5 mb-0 separator">
+
+  </div>
+
+
+  <div class="container">
+    <div class="row">
+      <div class="col-12">
+        <h2 id="recenzii">Recenzii</h2>
+        <p>În lumea noastră la Samovar, feedback-ul clienților este lumina care ne călăuzește către excelență. Fiecare
+          părere este o piesă prețioasă a puzzle-ului nostru, ajutându-ne să creăm o experiență la nivelul așteptărilor
+          și să ne reinventăm constant pentru a aduce bucurie în fiecare pahar.</p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card text-light border-light mb-4">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>"O seară de neuitat la Samovar! Cocktailurile lor excepționale și atmosfera primitoare m-au cucerit de
+                la primul moment. Mulțumesc, Samovar, pentru o experiență autentică și plină de savoare!" </p>
+              <footer class="blockquote-footer"><cite title="Source Title">Elena Mărgăritescu</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="card text-light border-light mb-4">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>"Am descoperit adevărata artă a cafelei la Samovar. Espresso-ul lor aromat și Latte-ul delicios au
+                transformat o simplă pauză într-un moment de răsfăț și plăcere. O destinație de neratat pentru iubitorii
+                de cafea!</p>
+              <footer class="blockquote-footer"><cite title="Source Title">Andrei Moldovan</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="card text-light border-light mb-4">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>"Samovar reprezintă pentru mine locul perfect pentru a degusta cele mai fine shot-uri. Atmosfera
+                relaxată și selecția variată m-au convins să revin mereu. O experiență cu adevărat remarcabilă!" </p>
+              <footer class="blockquote-footer"><cite title="Source Title">Irina Dumitrescu</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="col-md-6">
+        <div class="card text-light border-light mb-4">
+          <div class="card-body">
+            <blockquote class="blockquote mb-0">
+              <p>"Feedback-ul meu pentru Samovar este unul plin de entuziasm! În fiecare vizită am fost impresionat de
+                profesionalismul echipei și de gustul inconfundabil al băuturilor lor." </p>
+              <footer class="blockquote-footer"><cite title="Source Title">Radu Popescu</cite>
+              </footer>
+            </blockquote>
+          </div>
+        </div>
+      </div>
+
+
+
+      <hr class="border border-light opacity-100 mt-4 mb-1 separator">
+
+    </div>
+
+    <div class="container despre-noi">
+
+      <div class="row">
+        <div class="col-12">
+          <h2 id="despre-noi">Despre noi</h2>
+        </div>
+      </div>
+
+
+      <div class="row rounded-corner align-vertical-center">
+
+        <div class="col-lg-6 order-lg-1">
+          <img src="despre-noi/cocktails.jpg" alt="cocktailuri sunt turnate în pahare"
+            class="object-fit-cover border-white">
+        </div>
+
+        <div class="col-lg-6 order-lg-2">
+          <p>
+            Bine ați venit la Samovar, cel mai autentic bar rusesc din Cluj, unde tradiția rusă prinde viață în fiecare
+            pahar. Fondat acum 15 ani de proprietarul nostru, un rus pasionat care și-a adus amintirile și tradițiile în
+            inima României, Samovar reprezintă o adevărată comoară a băuturilor tradiționale rusești.</p>
+          <p>
+            Aici, vă invităm să vă bucurați de o experiență autentică a culturii ruse prin măiestria noastră în
+            prepararea băuturilor tradiționale. Samovar nu este doar un bar, ci un templu al băuturilor rusești
+            autentice, aducând un strop de Rusia în inima Clujului. Fiecare pahar este o călătorie în lumea aromelor
+            bogate și a amestecurilor tradiționale, o oportunitate de a descoperi adevărata artă a băuturilor rusești.
+          </p>
+        </div>
+      </div>
+
+      <div class="row rounded-corner align-vertical-center">
+        <div class="col-lg-6 order-lg-2">
+          <img src="despre-noi/petrecere.jpg" alt="oameni ciocnesc pahare la o petrecere"
+            class="object-fit-cover border-white">
+
+        </div>
+        <div class="col-lg-6 order-lg-1 text-lg-end">
+          <p>
+            Cu un nivel inegalabil de experiență și cunoștințe extinse în lumea băuturilor fine, barmanii noștri îți vor
+            încânta simțurile cu cocktailuri inovatoare și reinterpretări ale clasicelor tradiționale rusești. Fiecare
+            preparat este realizat cu atenție la detalii, de la alegerea ingredientelor de cea mai înaltă calitate până
+            la prezentarea artistică în pahar.</p>
+          <p>
+            Serviciile noastre nu se opresc la calitatea băuturilor. Echipa noastră de ospitalitate, de asemenea, este
+            dedicată oferirii unei experiențe impecabile, asigurându-se că fiecare vizită la Samovar Sip&Social este
+            memorabilă. De la recomandări personalizate la ambianța primitoare, vă invităm să vă bucurați de serviciile
+            noastre la standarde internaționale și să vă lăsați învăluiți de atmosfera autentică a barului nostru.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-3 mb-3">
+          <a href="index.html"><img src="logo.png" logo Samovar" class="img-fluid w-100"></a>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <h2>Informații de contact:</h2>
+          <p>Adresa: Strada Primăverii nr.10, Cluj-Napoca<br>
+            Telefon: 07XXXXXXXX<br>
+            E-mail: clienti@samovarsns.ro</p>
+        </div>
+
+        <div class="col-md-3 mb-3">
+          <h2>Orar de funcționare:</h2>
+          <p>Luni-Vineri: 17-20<br>
+            Sâmbătă-Duminică: 17-22</p>
+        </div>
+
+        <div class="col-md-3 mb-3 d-flex justify-content-center align-items-space-between social">
+          <a href="https://www.facebook.com/the.soviet.pub/" target="_blank"><img src="facebook.png"
+              alt="logo Facebook"></a>
+          <a href="https://www.instagram.com/the.soviet/" target="_blank"><img src="instagram.png"
+              alt="logo Instagram"></a>
+        </div>
+
+        <div class="row">
+          <div class="col-12 text-center copyright">
+            <p>Copyright © 2023 Samovar Sip and Social</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
